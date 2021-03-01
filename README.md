@@ -29,10 +29,10 @@
 
 ## Performance of model
 
-The output of the model consists of:<br />
-    * 2 classes for Gender Prediction, namely `Male` and `Female` <br /> 
-    * 9 classes for the Age Prediction, which are `(0-2)`, `(3-9)`, `(10-19)`, `(20-29)`, `(30-39)`, `(40-49)`, `(50-59)`, `(60-69)`, `(70+)`. <br />
-    * The table below shows the performance of model when tested on `13835` images containing Indian faces only.
+The output of the model consists of:
+* 2 classes for Gender Prediction, namely `Male` and `Female` <br /> 
+* 9 classes for the Age Prediction, which are `(0-2)`, `(3-9)`, `(10-19)`, `(20-29)`, `(30-39)`, `(40-49)`, `(50-59)`, `(60-69)`, `(70+)`. <br />
+* The table below shows the performance of model when tested on `13835` images containing Indian faces only.
 
 **Naming Convention used**: _True_ or _False_ represent whether the prediction is Right or Wrong Respectively. _Male_ or _Female_ represents what the model predicted.
 For eg: _False Female_ means the model predicted Wrong and Prediction was Female. Which means actually it was Male.
@@ -65,5 +65,5 @@ Below shown is the Confusion matrix of Age Prediction
 |**(70+)**|1|0|2|4|4|25|9|17|**130**|
 
 * <strong>The Accuracy achieved in Age Prediction is `75.09%`(exact) and `91.09%`(1-off).<strong>
-
+<br />
 <h3 align="center"> Do 🌟 the Repo If you like It...</h3>
