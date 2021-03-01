@@ -51,6 +51,8 @@ For eg: _False Female_ means the model predicted Wrong and Prediction was Female
 
 * <strong>The Accuracy achieved in Gender Prediction is `92.9%`<strong>
 
+---
+
 Below shown is the Confusion matrix of Age Prediction
 |Age Group|(0-2)|(3-9)|(10-19)|(20-29)|(30-39)|(40-49)|(50-59)|(60-69)|(70+)|
 | --- | --- | --- | --- | --- |---| --- | --- | --- | --- |
