@@ -4,7 +4,7 @@ This is the Age and Gender prediction model built using Convolutional Neural Net
 The model was insitially built on the basis of Research Paper by [Gil Levi and Tal Hassner](https://talhassner.github.io/home/publication/2015_CVPR "Age and Gender Classification Using Convolutional Neural Networks").
 <br />
 But the achitecture of the pretrained model did not perform well on Indian Dataset.<br />
-So the model was Re-trained Using VGG-16 as the backbone for the model.<br />
+So the model was Re-trained Using [VGG-16](https://pub.towardsai.net/the-architecture-and-implementation-of-vgg-16-b050e5a5920b) as the backbone for the model.<br />
 The dataset used are [UTKFace Dataset](https://susanqq.github.io/UTKFace/ "Large Scale Face Dataset") and [FairFace Dataset](https://arxiv.org/abs/1908.04913 "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age") out of which Indian Race faces were seperated and the model was trained with.
 
 ## Repository Structure
@@ -17,6 +17,11 @@ This Repository contains the notebook and Python code used for building the Age 
 -   Numpy &nbsp;&nbsp; `pip install numpy`
 -   Keras &nbsp;&nbsp; `pip install keras`
 -   Pillow &nbsp;&nbsp; `pip install pillow`
+
+## VGG-16 Architecture
+![](https://github.com/ujjwaltyagi355/Age-Gender-Classfication/blob/master/images/VGG-16%20Architecture.png)
+<br />
+![](https://github.com/ujjwaltyagi355/Age-Gender-Classfication/blob/master/images/VGG%2016%20model.png)
 
 ## Performance of model
 
